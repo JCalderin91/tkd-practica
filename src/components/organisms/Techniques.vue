@@ -22,11 +22,11 @@ onMounted(() => {
 <template>
     <Card>
         <template #header>
-            <Typography type="title">Practica los ejercicios</Typography>
+            <Typography as="h2" type="title">Practica los ejercicios</Typography>
         </template>
         <template #content>
-            <Typography>{{ techniqueOne }}</Typography>
-            <Typography>{{ techniqueTwo }}</Typography>
+            <Typography as="h3">{{ techniqueOne }}</Typography>
+            <Typography as="h3">{{ techniqueTwo }}</Typography>
         </template>
         <template #actions>
             <Button @click="techniqueHandleClick">Siguiente</Button>

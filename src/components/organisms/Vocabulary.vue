@@ -20,11 +20,11 @@ onMounted(() => {
 <template>
     <Card>
         <template #header>
-            <Typography type="title">Practica el vocabulario</Typography>
+            <Typography as="h2" type="title">Practica el vocabulario</Typography>
         </template>
         <template #content>
-            <Typography type="body-sm">{{ vocabulary[0] }}</Typography>
-            <Typography>{{ vocabulary[1] }}</Typography>
+            <Typography as="h3" type="body-sm">{{ vocabulary[0] }}</Typography>
+            <Typography as="h3">{{ vocabulary[1] }}</Typography>
         </template>
         <template #actions>
             <Button @click="vocabularyHandleClick">Siguiente</Button>
