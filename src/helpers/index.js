@@ -1,6 +1,7 @@
-import { defenses, kicks, levels, positions, punches, vocabulary } from "../data";
+import { betls, defenses, kicks, levels, numbers, positions, punches, vocabulary } from "../data";
 
 const technics = [kicks, defenses, punches]
+const vocabularyFull = [...vocabulary, ...numbers, ...betls]
 
 export const getRandomExercise = () => {
     const technic = technics[getRandomInt(0, technics.length)]
@@ -17,7 +18,7 @@ function getRandomInt(min, max) {
 
 export const getRandomVocabulary = () => {
     const position = getRandomInt(0, 2);
-    const world = vocabulary[getRandomInt(0, vocabulary.length)];
+    const world = vocabularyFull[getRandomInt(0, vocabularyFull.length)];
     const one = world[position];
     const two = world[position === 0 ? 1 : 0];
     return [one, two]
