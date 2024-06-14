@@ -16,7 +16,7 @@ const props = defineProps({
 
 <template>
   <component :is="props.as"
-    :class="[props.type === 'title' && 'text-xl font-semibold', props.type === 'body-sm' && 'font-semibold text-gray-600', props.type === 'body' && 'font-semibold text-lg']">
+    :class="[props.type === 'title' && 'text-xl font-semibold text-slate-700', props.type === 'body-sm' && 'text-md italic font-semibold text-gray-600', props.type === 'body' && 'font-bold text-xl']">
     <slot />
   </component>
 </template>
