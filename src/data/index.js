@@ -1,5 +1,5 @@
 export const kicks = [
-    "Ap Chagui",
+    "Ad Chagui",
     "Dolio Chagui",
     "Yop Chagui",
     "Furio Chagui",
@@ -9,7 +9,7 @@ export const kicks = [
 export const levels = ["Ogul", "Montol", "Are"];
 
 export const positions = [
-    "Ap Sogui",
+    "Ad Sogui",
     "Kima Sogui",
     "Dui Sogui",
     "Moa Sogui",
@@ -29,6 +29,7 @@ export const vocabulary = [
     ["Bodan", "Cinturon negro infantil"],
     ["Sasoniyi-nin", "Cinturon negro mayor de 4to dan"],
     ["Ye-Yad", "Alumno"],
+    ["Kwan", "Escuela"],
     ["Doyand", "Salón de practica"],
     ["Kiong-Ne", "Saludo"],
     ["Ne, Sabon-nin", "Si, profesor"],
@@ -46,7 +47,7 @@ export const vocabulary = [
     ["Kuc-Ki", "Autocontrol"],
     ["Pec-Shol-Polgur", "Espíritu Indomable"],
     ["Tumio", "Salto"],
-    ["Hidan", "Salto escalonado"],
+    ["Idan", "Salto escalonado"],
     ["Año de fundado ATIN", "2022"],
     ["Director ATIN Vzla.", "Sabonim Jhen Castro"],
     ["Director ATIN Región Capital", "Sabonim Reinaldo Londoño"],
@@ -57,7 +58,7 @@ export const vocabulary = [
     ["Kihap", "Grito"],
     ["Dora", "Un cuarto de vuelta"],
     ["Goman", "Terminar"],
-    ["Ap", "De frente"],
+    ["Ad", "De frente"],
     ["Yop", "De lado"],
     ["Dui", "Atrás"],
     ["Dolio", "Semi circulo"],
@@ -69,8 +70,8 @@ export const vocabulary = [
     ["Yop Chagui", "Patada Lateral"],
     ["Furio Chagui", "Patada de gancho"],
     ["Nerio Chagui", "Patada de hacha"],
-    ["Mondollio Chagui", "Patada con giro (360)"],
-    ["Ap Sogui", "Posición de frente"],
+    ["Momdollyo Chagui", "Patada con giro (360)"],
+    ["Ad Sogui", "Posición de frente"],
     ["Kima Sogui", "Posición de jinete"],
     ["Dui Sogui", "Posición de L"],
     ["Moa Sogui", "Posición de pies juntos"],
@@ -90,7 +91,19 @@ export const vocabulary = [
     ["Mondollio", "Técnica de giro"],
     ["Sio", "Descanso"],
     ["Anya", "Arrodillarse"],
+    ["Kiocha sudo monton maki", "Defensa media con las manos abiertas cruzadas"],
+    ["Bak sudo maki", "Defensa media de adentro hacia afuera con mano abierta"],
+    ["Sudo debli maki", "Defensa doble con manos abiertas contra lateral, una mano cubre el frente y la otra el costado"],
 ];
+
+export const betls = [
+    ["Cinturon blanco", "La pureza, se inicia el camino"],
+    ["Cinturon bmarillo", "Se siente el camino"],
+    ["Cinturon berde", "Simboliza la copa de los árboles, Hay madures"],
+    ["Cinturon bzul", "Representa el cielo. Adquiere espiritualidad"],
+    ["Cinturon bojo", "Representa el sol. La percepción del taekwondo"],
+    ["Cinturon begro", "La conjugación de todos los cinturones"],
+]
 
 export const numbers = [
     ["Hana", "Uno"],
