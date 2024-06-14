@@ -1,5 +1,5 @@
 export const kicks = [
-    "Ad Chagui",
+    "Ap Chagui",
     "Dolio Chagui",
     "Yop Chagui",
     "Furio Chagui",
@@ -9,8 +9,8 @@ export const kicks = [
 export const levels = ["Ogul", "Montol", "Are"];
 
 export const positions = [
-    "Ad Sogui",
-    "kima Sogui",
+    "Ap Sogui",
+    "Kima Sogui",
     "Dui Sogui",
     "Moa Sogui",
     "Kiocha Sogui",
@@ -46,7 +46,7 @@ export const vocabulary = [
     ["Kuc-Ki", "Autocontrol"],
     ["Pec-Shol-Polgur", "Espíritu Indomable"],
     ["Tumio", "Salto"],
-    ["Idan", "Salto escalonado"],
+    ["Hidan", "Salto escalonado"],
     ["Año de fundado ATIN", "2022"],
     ["Director ATIN Vzla.", "Sabonim Jhen Castro"],
     ["Director ATIN Región Capital", "Sabonim Reinaldo Londoño"],
@@ -57,7 +57,7 @@ export const vocabulary = [
     ["Kihap", "Grito"],
     ["Dora", "Un cuarto de vuelta"],
     ["Goman", "Terminar"],
-    ["Ad", "De frente"],
+    ["Ap", "De frente"],
     ["Yop", "De lado"],
     ["Dui", "Atrás"],
     ["Dolio", "Semi circulo"],
@@ -70,10 +70,10 @@ export const vocabulary = [
     ["Furio Chagui", "Patada de gancho"],
     ["Nerio Chagui", "Patada de hacha"],
     ["Mondollio Chagui", "Patada con giro (360)"],
-    ["Ad Sogui", "Posición de frente"],
+    ["Ap Sogui", "Posición de frente"],
     ["Kima Sogui", "Posición de jinete"],
     ["Dui Sogui", "Posición de L"],
-    ["Moa Sogui", "Psición de pies juntos"],
+    ["Moa Sogui", "Posición de pies juntos"],
     ["Kiocha Sogui", "Posición de pies cruzados"],
     ["Ogul", "Nivel alto"],
     ["Montol", "Nivel medio"],
